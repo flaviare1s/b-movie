@@ -120,6 +120,10 @@ a {text-decoration: underline;
     opacity: 1;
 }
 
+#ps {
+    font-size: 10pt;
+}
+
 
 /*Formatação do Menu Principal*/
 nav#menu {
@@ -162,35 +166,39 @@ nav#menu a:hover {
 }
 
 /*Formatação do Menu de Críticas*/
-#camera {
-    position: absolute;
-    left: 100px;
-    top: 50px;
-    float: right;
-}
 
-#claquete {
-    position: absolute;
-    left: 100px;
-    top: 270px;
-    float: right;
-}
-
-#oculos {
-    position: absolute;
-    left: 100px;
-    top: 490px;
-    float: right;
-}
 
 #menu-criticas {
-    display: block;
-    position: relative;
-    text-align: center;
-    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
-
+    width: 1150px;  
 } 
+
+.icone-grande-filme {
+    display: block;
+    border: 3px solid red;
+    width: 200px;
+    height: 250px;
+}
+
+.icone-filme {
+   width: 150px;
+   height: 150px; 
+   margin-left: 25px;
+   margin-top: 20px;
+   
+}
+
+#main-criticas {
+    display: flex;
+    justify-content: space-between;
+}
+
+#figuras {
+    width: 250px;
+    display: block;
+   }
 
 /*Formatação das Páginas de Críticas*/
 .titulo-ingles {
