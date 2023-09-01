@@ -36,6 +36,12 @@ a {text-decoration: underline;
     left: 20px;
     color: white;
 }
+.anterior {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    color: white;
+}
 
 
 /*Formatação da Página Inicial*/
