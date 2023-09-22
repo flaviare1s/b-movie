@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+@font-face {
+    font-family:'FonteM';
+    src: url(_fonts/computer-font.ttf);
+}
+
+@font-face {
+    font-family: 'Comic';
+    src: url(_fonts/LDFComicSans.ttf);
+}
+
+:root {
+    --cor0: #7D3736;
+    --cor1: #7D1210;
+    --cor2: #C91D1A;
+    --cor3: #FC2421;
+    --cor4: #FD6F6D;
+    --cor5: #000000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo-principal: 'Monoton', cursive;
+    --fonte-computer: 'FonteM', cursive; 
+    --fonte-criticas: 'Comic', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+}
+
+#cabecalho-principal > h1 {
+    font-family: var(--fonte-titulo-principal);
+    font-size: 65pt;
+    color: var(--cor3);
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-align: center;
+}
+
+#cabecalho-principal > h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #C91D1A;
+    text-align: center;
+    color: white;
+    top: -300px;
+    font-family:var(--fonte-computer);
+    font-size: 30px;
+}
+
+#cabecalho-principal > p#p1 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#cabecalho-principal > p#p2 {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icone {
+    position: absolute;
+    left: 980px;
+    top: 60px;
+}
+
+#tituloimagemcapa {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: black;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+}
+
+div#textoimagemcapa >p {
+    color: white;
+    text-shadow: 2px 2px 1px red;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#fotolegenda {
+    position: relative;
+    border: 8px solid whitesmoke;
+    box-shadow: 1px 1px 4px gray;
+}
+
+#fotolegenda img {
+    width: 100%;
+    height: 100%;
+}
+
+#fotolegenda figcaption {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#fotolegenda:hover figcaption {
+    opacity: 1;
+}
