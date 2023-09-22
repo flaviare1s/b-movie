@@ -4,10 +4,29 @@
 
 @font-face {
     font-family:'FonteM';
-    src: url(computer-font.ttf);
+    src: url(_fonts/computer-font.ttf);
 }
 
-body {background-color: black;
+@font-face {
+    font-family: 'Comic';
+    src: url(_fonts/LDFComicSans.ttf);
+}
+
+:root {
+    --cor0: #7D3736;
+    --cor1: #7D1210;
+    --cor2: #C91D1A;
+    --cor3: #FC2421;
+    --cor4: #FD6F6D;
+    --cor5: #000000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo-principal: 'Monoton', cursive;
+    --fonte-computer: 'FonteM', cursive; 
+    --fonte-criticas: 'Comic', sans-serif;
+}
+
+body {background-color: var(--cor5);
 }
 
 p { text-align: justify;
@@ -23,7 +42,7 @@ a {text-decoration: underline;
 
 .titulos-abas {
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px 2px #C91D1A;
     text-align: center;
     color: white;
     top: -300px;
@@ -47,21 +66,21 @@ a {text-decoration: underline;
 
 /*Formatação da Página Inicial*/
 
-#titulo-principal {
-    font-family: 'Monoton', cursive;
+#cabecalho-principal h1 {
+    font-family: var(--fonte-titulo-principal);
     font-size: 65pt;
-    color: red;
+    color: #FC2421;
     text-shadow: 2px 2px 2px whitesmoke;
     text-align: center;
 }
 
-#subtitulo {
+#cabecalho-principal h2 {
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px red;
+    text-shadow: 2px 2px 2px #C91D1A+;
     text-align: center;
     color: white;
     top: -300px;
-    font-family:'FonteM', sans-serif;
+    font-family: 'FonteM';
     font-size: 30px;
 }
 
@@ -71,16 +90,18 @@ a {text-decoration: underline;
     top: 60px;
 }
 
-#subtitulo2 {
+#p1 {
     color: whitesmoke;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
-#subtitulo3 {
+#p2 {
     color: whitesmoke;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 #tituloimagemcapa {

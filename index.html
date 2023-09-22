@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B-Movie</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <title>B Movies</title>
+    <link rel="stylesheet" href="estilo.css">
     <style>
         span {
             font-size: 10px;
@@ -15,27 +15,32 @@
         }
     </style>
 </head>
+
 <body>
+
     <header id="cabecalho-principal">
-        <h1>B<span>(eautiful)</span>- Movie</h1>
+        <hgroup>
+        <h1>B<span>(eautiful)</span>- Movies</h1>
         <h2>A sabedoria oculta em filmes desvalorizados</h2>
-        <p id="p1">Filmes não aclamados pela crítica</p>
-        <p id="p2">Trazem mensagens profundas e inspiradoras</p>
-        <figure>
-            <img id="icone" src="_imagens/cabecalho.png" alt="Imagem de uma câmera de vídeo">
-        </figure>
+        </hgroup>
+        
+        <img id="icone" src="_imagens/cabecalho.png" alt="Imagem de uma câmera de vídeo">
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="criticas.html">Críticas</a></li>
+                <li><a href="pesquisa.html">Opinião</a></li>
+                <li><a href="aba.html">Uma aba qualquer</a></li>
+            </ul>
+        </nav>
+        <hgroup>
+            <p id="p1">Filmes não aclamados pela crítica</p>
+            <p id="p2">Trazem mensagens profundas e inspiradoras</p>
+        </hgroup>
     </header>
-    
-    <nav id="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="criticas.html">Críticas</a></li>
-            <li><a href="pesquisa.html">Opinião</a></li>
-            <li><a href="aba.html">Uma aba qualquer</a></li>
-        </ul>
-    </nav>
-    
-    <main id="main-principal">
+
+    <main>
         <figure id="fotolegenda">
             <img src="_imagens/filme.avif" alt="Plano de fundo de um filme de cinema">
             <figcaption>
@@ -50,13 +55,13 @@
 
                     <p><small>PS.: Todos os meus textos contém ironia.</small></p>
                     <p><small>PS2.: Sim, vou fazer o texto das críticas usando a Comic Sans.</small></p>
+
+                    
+
                 </div>
             </figcaption>
         </figure>
     </main>
-    
-    <footer>
 
-    </footer>
 </body>
 </html>
