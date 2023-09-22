@@ -90,12 +90,13 @@ a {text-decoration: underline;
     text-align: center;
 }
 
-#textoimagemcapa {
-    color: red;
-    text-shadow: 2px 2px 2px black;
+div#textoimagemcapa >p {
+    color: white;
+    text-shadow: 2px 2px 1px red;
     text-align: justify;
     font-size: 20pt;
     font-family: Arial, sans-serif;
+    font-weight: bolder;
 }
 
 #fotolegenda {
@@ -124,10 +125,6 @@ a {text-decoration: underline;
 
 #fotolegenda:hover figcaption {
     opacity: 1;
-}
-
-#ps {
-    font-size: 10pt;
 }
 
 
