@@ -1,1 +1,2 @@
-Projeto de site com a finalidade de apender linguagem HTML, CSS e JavaScript.
+Projeto de site de humor envolvendo críticas de filmes com a finalidade de apender linguagem HTML, CSS e JavaScript. 
+Comecei esse site na primeira semana de estudos, eu ainda não conhecia quase nenhuma tag de HTML. O site está horrível, naturalmente. kkkkk. No futuro, quem sabe, eu levo esse projeto pra frente. 
